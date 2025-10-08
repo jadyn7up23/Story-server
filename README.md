@@ -1,20 +1,38 @@
-# 🐺📖 Interactive Storytelling with Chainlit & Mistral
+# Story Server
 
-Welcome to your **interactive storytelling adventure**! 🚀 This project lets you explore a rich fantasy world where you interact with a **magical crow**, a **mercenary wolf**, and a **mysterious narrator**. You can influence the story by chatting with these characters and making choices!
+An interactive mystery-solving game where players act as detectives to solve dynamic murder cases. The game features dynamic story generation, NLP sentiment analysis, and real-time character interactions.
 
-## ✨ Features
-- **Dynamic AI Characters**: Engage with the Crow, Wolf, and Narrator, each with unique personalities and dialogue styles.
-- **Streaming Responses**: Real-time storytelling powered by Mistral 7B running locally via LM Studio.
-- **Character-Driven Interaction**: Use `@crow` or `@wolf` to address your companions.
-- **Customizable AI Behavior**: Modify `cast_of_characters.py` to tweak character personalities and responses.
-- **Interactive Adventure**: Start in the Black Woods, tracking a mystical creature. What happens next is up to you! 🌲🔮
+## Table of Contents
+- [Features](#features)
+- [Installation & Setup](#installation--setup)
+- [How to Play](#how-to-play)
+- [Advanced Configuration](#advanced-configuration)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
 
----
+## Features
+- Dynamic mystery generation with randomized victims, suspects, motives, and clues.
+- Sentiment analysis using NLTK's `SentimentIntensityAnalyzer`.
+- Real-time API integration for character responses.
+- Interactive gameplay with interrogation and accusation mechanics.
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<jadyn7up23>/story-server.git
+   cd story-server
+
+   ## Features
+| Feature                  | Description                                      |
+|--------------------------|--------------------------------------------------|
+| Dynamic Story Generation | Randomized victims, suspects, motives, and clues.|
+| Sentiment Analysis       | Analyzes user messages and AI responses.         |
+| Real-Time Interaction    | Characters respond dynamically via LM Studio.    |
 
 ## 🛠 Installation & Setup
 
 ### 0️⃣ Clone the repository (code)
-Git is a little language widely used to help people update and download software projects. Make sure you have git by entering `git` in your terminal. If it doesn't recognize that command, [install it](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Now, clone the repository to whatever location you would like, using `git clone https://github.com/prestonfrasch/story-server.git':
+Git is a little language widely used to help people update and download software projects. Make sure you have git by entering `git` in your terminal. If it doesn't recognize that command, [install it](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Now, clone the repository to whatever location you would like, using `git clone https://github.com/jadyn7up23/story-server.git':
 
 ![image](https://github.com/user-attachments/assets/dc328965-fc46-47b0-85db-ac4af7c820c1)
 
@@ -78,4 +96,5 @@ Want to customize the storytelling experience? Try these:
 Need help or want to share your adventure? Join the [Chainlit Discord](https://discord.gg/k73SQ3FyUh)!
 
 Happy storytelling! 🎭📚
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
